@@ -64,6 +64,9 @@ Alows you to run *Kafka, AMQP or MQTT*
 
 Reactive Programming Library
 
+Hibernate Reactive is using SmallRye Mutiny for Reactivity
+https://twitter.com/maciejwalkowiak/status/1335874523359535104
+
 == Cloud Native
 
 
