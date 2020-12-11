@@ -32,6 +32,8 @@
 
 |===
 
+
+- link:docs/0_Primer-before-Quarkus.adoc[Primer Before Quarkus]
 - link:docs/1_Getting-Started.adoc[Getting Started]
 - link:docs/2_Core-Quarkus.adoc[Core Quarkus]
 - link:docs/3_DataTransactions-and-ORM.adoc[Data Transactions and ORM]
