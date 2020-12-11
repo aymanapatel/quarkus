@@ -1,3 +1,100 @@
 = Primer before Quarkus
-:toc:
+:toc: left
+:toclevels: 4
 :icons: font
+
+== Monolith vs Microservice
+
+
+=== Monolith
+
+=== Microservice
+
+
+=== Pros and Cons
+
+
+== Reactive
+
+=== Reactive Manifesto
+
+=== Reactive Systems
+
+=== Reactive Streams
+
+
+== Microprofile
+
+=== Eclipse 
+
+=== SmallRye
+
+
+=== Microprofile Specifications
+
+==== CDI
+
+==== JAX-RS
+==== JSON-B
+==== JSON-P
+
+==== Configuration
+==== Eclipse Microprofile Fault Tolerance
+==== Eclipse Microprofile Health API
+==== Eclipse Microprofile Metrics
+==== Eclipse Microprofile OpenAPI
+==== Eclipse Microprofile REST Client
+==== Eclipse Microprofile JWT Auth
+
+==== Eclipse Microprofile OpenTracing
+
+WARNING: This API has been deprecated in MicroProfile 3.3 and will be replaced by OpenTelemetry (OpenCensus + OpenTracing) in a future release.
+
+=== Standalone Releases
+
+*Specs which are being incubated or in progress. Note that these can be integrated into Microprofile or may get obsolete*
+
+==== Context Propogation
+
+==== Reactive Messaging
+
+Alows you to run *Kafka, AMQP or MQTT*
+
+==== Mutiny
+
+Reactive Programming Library
+
+== Cloud Native
+
+
+=== Docker
+
+Remember Docker is already confused with containerd in the Kubernetes space.
+
+image::https://www.studytrails.com/wp-content/uploads/2018/12/Docker_Architecture_hierarchy.png[Architecture]
+
+((namespace+cgrouops+...)runC+snapshotter)containerd
+
+=== K8s
+
+== GraalVM
+
+=== Architecture
+
+=== Current OSS Efforts
+
+== Quarkus 
+
+
+=== History
+
+=== Architecture
+
+=== Reactive vs Imperitive Programming
+
+=== Augmentation
+
+=== Extensions
+
+
+
