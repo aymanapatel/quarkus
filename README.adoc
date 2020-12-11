@@ -56,3 +56,9 @@
 |===
 
 
+== Dialogue
+
+1. *You need a dose of curiosity, a glimpse of discipline, an inch of concentration, and a huge amount of craziness.*
+2. *Things didn’t change, like the good old Gang of Four design patterns, architecture design patterns, unit testing frameworks and building tools.*
+3. _Quarkus has its genesis in the JBoss community. JBoss has a long expertise on running applications on application servers (JBoss EAP, WildFly) or building reactive applications on the JVM (with Eclipse Vert.x for example). Due to its extension mechanism, Quarkus supports several Java frameworks (e.g. Hibernate, Camel, etc.) as well as specifications (e.g. a subset of Jakarta EE, or MicroProfile which is a set of specifications to develop microservices in Java). So, this fascicle is for the Java community as a whole and for those of you interested in microservice architectures._
+
