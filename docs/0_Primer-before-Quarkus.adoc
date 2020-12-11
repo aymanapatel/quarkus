@@ -97,4 +97,33 @@ image::https://www.studytrails.com/wp-content/uploads/2018/12/Docker_Architectur
 === Extensions
 
 
+NOTE: code.quarkus.io  == start.spring.io 
+
+Check vailable exensions with `mvn quarkus:list-extensions`
+
+- https://github.com/agroal/agroal[Agroal] is the datasource connection pool implementation in Quarkus that integrates with transactions, security and other systems. Quarkus team chose Agroal and not the popular *Hikari Pool*
+
+- Hibernate ORM is the ORM framework implementingJava Persistence API. (Reactive Hibernate has just started OSS[December-2020])
+
+- Hibernate Validator is the OSS reference implementation of Bean Validation. (https://jcp.org/en/jsr/detail?id=380[JSR-380])
+
+- https://github.com/jbosstm/narayana[Narayana] is the premier OSS transaction manager with over 30 years of expertise in the area of transaction processing.
+- https://github.com/smallrye/smallrye-mutiny[SmallRye Mutiny] is the reactive programming library. 
+- Vert.x is an event-driven and non-blocking tool-kit for building reactive applications on the JVM.
+
+
+When it comes to implementing MicroProfile, Quarkus uses several implementations that come either from Jakarta EE or SmallRye. The MicroProfile implementations used by Quarkus are the following ones:
+
+- ArC is the Context and Dependency Injection implementation
+- RESTEasy is the Java API for RESTful Web Services implementation
+- Yasson is the JSON Binding implementation
+- Glassfish JSON-P is the JSON Processing implementation
+- RestEasy Client Microprofile is the implementation of Eclipse MicroProfile REST Client
+- SmallRye Config is the implementation of Eclipse MicroProfile Configuration
+- SmallRye Fault Tolerance is the implementation of Eclipse MicroProfile Fault Tolerance
+-  SmallRye Health is the implementation of Eclipse MicroProfile Health
+- SmallRye JWT is the implementation of Eclipse MicroProfile JWT Auth
+- SmallRye Metrics is the implementation of Eclipse MicroProfile Metrics
+- SmallRye OpenAPI is the implementation of Eclipse MicroProfile OpenAPI
+
 
